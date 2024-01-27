@@ -1,0 +1,98 @@
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add_box{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    background-color: rgb(72, 99, 99);
+    padding: 2rem;
+    width:35vw ;
+    box-shadow: 0 0 2px 2px whitesmoke;
+    border-radius: 8px;
+    }
+    .add_box input{
+        outline: none;
+        padding: 0.1rem;
+        border: none;
+        padding:0.25rem;
+        border-radius: 3px;
+        box-shadow: 0 0 1px 1px green;
+    }
+    .add_box button{
+        background-color :rgb(94, 94, 214);
+        padding: 0.3rem;
+        border:none ;
+        border-radius: 3px;
+        color: white;
+        cursor: pointer;
+       font-size: 0.75rem;
+    }
+
+    .add_box button:hover{
+        background-color: green;
+    }
+
+    .error{
+        text-align: center;
+        color: red;
+        font-size: 1.1rem;
+    }
+
+    .task {
+        display: flex;
+        align-items: center;
+        background-color: antiquewhite;
+        padding: 0.5rem;
+        width: 35vw;
+        margin: auto;
+        margin-bottom: 0.3rem;
+      }
+      
+      .checkbox {
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .task_text {
+        width: 70%;
+      }
+      
+      .buttons {
+        display: flex;
+        width: 20%;
+        justify-content: space-between;
+        
+      }
+      .buttons button{
+        background-color :rgb(94, 94, 214);
+        padding: 0.3rem;
+        border:none ;
+        border-radius: 3px;
+        color: white;
+        cursor: pointer;
+       font-size: 0.75rem;
+      }
+      .buttons button:hover{
+        background-color: green;
+      }
+
+      .task_container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: auto;
+        width: 35vw;
+        padding: 2rem;
+      }
+      
+    
